@@ -1,0 +1,10 @@
+#list-1{
+    font-size: 25px;
+    list-style-type: upper-alpha;
+    list-style-position: inside ; /* Removes list identation */
+}
+#list-2{
+    font-size: 25px;
+    list-style-type: circle;
+    padding-left: 0;  /* Removed default padding of the list */
+}

@@ -1,0 +1,37 @@
+#btn-login{
+    font-size: 20px;
+    background-color: lightblue;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer; /* shows this is clickable */
+    margin-top: 20px;
+    margin-right: 15px;
+}
+#btn-login:hover{
+    background-color: darkblue;
+    color: white;
+}
+#btn-signup{
+    font-size: 20px;
+    background-color: white;
+    border: 2px solid lightblue;
+    padding: 8px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+#btn-signup:hover{
+    background-color: lightblue;
+}
+#btn-disabled{
+    font-size: 20px;
+    background-color: lightblue;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: not-allowed;
+    opacity: 0.5; /* gives transparency and the value should be between 0 and 1 */
+
+
+}

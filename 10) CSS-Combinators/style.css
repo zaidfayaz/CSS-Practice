@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    background-color: #f3e7e7;
+}
+#topbar{
+    
+    padding: 20px;
+    background-color: rgb(216, 227, 219);
+
+}
+#logo{
+    font-size: 30px;
+    font-weight: bolder;
+    color: blue;
+    padding-left: 40px;
+}
+.menu-items{
+    padding: 10px;
+    font-size: 20px;
+    position: relative;
+    float: right;
+}
+#text-wrapper{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: larger;
+}
+h1{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 50px;
+    
+}
+article{
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px rgb(168, 162, 162);
+    padding: 20px 15px;
+    margin :30px 1px;
+} 
+     /* Descedant Selector */
+article p{
+    background-color: lightyellow;
+
+}
+
+        /* Child Selector */
+article >p{
+    background-color: red;
+}
+
+        /* Adjacent Sibling  Selector */
+
+div + p{
+    background-color: green;
+}
+
+        /*General Siblingd   Selector */
+        
+div ~ p{
+    background-color: aquamarine;
+}

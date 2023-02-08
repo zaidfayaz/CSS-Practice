@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    background-color: #f3e7e7;
+}
+#topbar{
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(216, 227, 219);
+    position: fixed;
+    top: 0;
+
+}
+#logo{
+    font-size: 30px;
+    font-weight: bolder;
+    color: blue;
+    padding-left: 40px;
+}
+.menu-items{
+    padding: 10px;
+    font-size: 20px;
+    position: relative;
+    right: 30px;
+    float: right;
+}
+#text-wrapper{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: larger;
+    padding-top: 100px;
+}
+h1{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 50px;
+    
+}
+article{
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px rgb(168, 162, 162);
+    padding: 20px 15px;
+    margin :30px 1px;
+} 
+
+/*Selecting the first paragraph of each article*/
+article > P:first-of-type{
+    background-color: coral;
+}
+
+/*Selecting the last paragraph of each article*/
+article > P:last-of-type{
+    background-color: rgb(92, 82, 79);
+}
+
+/*Selecting the any paragraph of each article*/
+article > P:nth-of-type(4){
+    background-color: rgb(158, 202, 244);
+}
+
+/*Selecting the last any paragraph of each article*/
+article > P:nth-last-child(2){
+    background-color: rgb(158, 244, 188);
+}
+
+/*Selecting the paragraph which is the first child inside the article*/
+article > P:first-child{
+    background-color: rgb(244, 158, 172);
+}
+
+/*Selecting the paragraph which is the last child inside the article*/
+article > P:last-child{
+    background-color: rgb(84, 78, 76);
+}
+
+/*Selecting the paragraph which is the 3rd child inside the article*/
+article > P:nth-child(3){
+    background-color: rgb(158, 162, 244);
+}
+
+/*Selecting the paragraph which is the last 2nd child inside the article*/
+article > P:nth-last-child(2){
+    background-color: rgb(174, 158, 244);
+}

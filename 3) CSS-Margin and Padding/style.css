@@ -1,0 +1,22 @@
+#second-para{
+    border: 4px solid red;
+    padding: 34px; 
+
+     /*amother ways of padding
+    padding-left: 10px;
+    padding-right: 12px;
+    padding-top:20px;
+    padding-bottom: 22px;
+
+       this below padding has 4 values i.e top, right, bottom, left
+    padding: 20px 12px 22px 10px;
+     
+       this below padding has 2 values i.e tip and bottom, rigth and left
+       padding: 23px 45px;
+
+    */
+    margin: 40px;
+       
+    /* we can writhe the other ways of margin same as we did in padding above*/
+    margin: 50px 60px;
+}

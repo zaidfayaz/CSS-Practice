@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS-Psuedo Class</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <h1>Register</h1>
+
+    <form action="POST" id="register-form">
+        <div>
+            <input class="input-items" type="text" name="fullname" placeholder="Full Name" required>
+        </div>
+
+        <div>
+            <input class="input-items" type="email" name="email" placeholder="Email" value="zaidfayaz1@gmail.com" disabled>
+        </div>
+
+        <div>
+            <input class="input-items" type="number" name="age" placeholder="Age" min="18" max="50">
+        </div>
+
+        <div>
+            <input class="input-items" type="password" name="password" placeholder="Password" required maxlength="8">
+        </div>
+
+        <div>
+            <input class="input-items" type="password" name="confirm-password" placeholder="Confirm Password" required maxlength="8">
+        </div>
+
+        <div>
+            <input id="checkbox-terms"  type="checkbox" name="agree-terms" value="accept-terms-conditions">
+                I agree to accept the terms and conditions </input>
+            </div>
+
+         <div>
+           <button id="btn">Register</button>
+        </div>
+
+  </form>
+    
+</body>
+</html>

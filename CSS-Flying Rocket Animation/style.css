@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4DODYOS4eKJhuuGItKHksXiL185mxxNdZOQ&usqp=CAU"); */
+    background-size: cover;
+    animation: back 2s infinite;
+}
+img{
+    width: 300px;
+    position: absolute;
+    bottom: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: fly 5s ease-in;
+}
+@keyframes fly{
+    0%{
+        transform: translate(-50%,0);
+    }
+    100%{
+        transform: translate(-50%,-100vh);
+    }
+}
+@keyframes back{
+    0%{
+        background-color: gray;
+    }
+    30%{
+        background-color: rgb(189, 58, 58);
+    }
+    70%{
+        background-color: rgb(30, 97, 40);
+    }
+    100%{
+        background-color: rgb(177, 43, 76);
+    }
+}

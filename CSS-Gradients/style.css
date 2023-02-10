@@ -1,0 +1,75 @@
+h1{
+    text-align: center;
+}   
+ 
+   /*linear gradient*/
+#div1{
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to right, rgb(213, 108, 108), rgb(75, 75, 227));
+}
+#div2{
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(180deg, rgb(194, 124, 186), rgb(210, 214, 82));
+    margin-top: 15px;
+
+}
+#div3{
+        width: 100%;
+        height: 100px;
+        background: linear-gradient(90deg, rgb(20, 20, 20), rgb(189, 14, 66), green, coral);
+        margin-top: 15px;
+    
+
+}
+
+  /*Radial gradient*/
+#div4{
+    width: 100%;
+    height: 200px;
+    background: radial-gradient(red, yellow, green);
+}
+#div5{
+    width: 300px;
+    height: 150px;
+    background: radial-gradient(farthest-side,red, yellow);
+    margin-top: 15px;  
+}
+#div6{
+    width: 100%;
+    height: 150px;
+    background: radial-gradient(closest-side,rgb(188, 58, 58), rgb(21, 0, 255));
+    margin-top: 15px;  
+}
+  
+/*Conic gradient*/
+#div7{
+    width: 300px;
+    height: 200px;
+    background: conic-gradient(rgb(188, 58, 58), rgb(21, 0, 255));
+    margin-top: 15px;  
+}
+
+#div8{
+    width: 300px;
+    height: 200px;
+    background: conic-gradient(red 45deg, yellow 90deg, green 210deg);
+    margin-top: 25px;  
+}
+
+#div9{
+    width: 200px;
+    height: 200px;
+    background: conic-gradient(red, yellow, green, blue, black);
+    margin-top: 25px; 
+    border-radius: 50%;
+}
+
+#div10{
+    width: 200px;
+    height: 200px;
+    background:repeating-conic-gradient(red 10%, yellow 20%);
+    margin-top: 25px; 
+    border-radius: 50%;
+}

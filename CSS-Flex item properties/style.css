@@ -1,0 +1,64 @@
+body{
+    margin:0;
+}     
+#container{
+    width:100vw;
+    background-color: lightblue;
+    box-sizing: border-box;
+    padding: 32px;
+    display: flex;
+
+   
+    
+    
+}
+.item{
+    background-color: lightcoral;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    padding: 32px;
+    font-size: 24px;
+    text-align: center;
+    flex-grow: 1;
+}
+.item:nth-child(2){
+    background-color: bisque;
+    flex-grow: 2;
+}
+.item:nth-child(3){
+    background-color: rosybrown;
+    flex-grow: 0;
+    flex-shrink: 2;
+}
+#container-2{
+    margin-top: 30px;
+    width:100vw;
+    height: 500px;
+    background-color: rgb(173, 225, 230);
+    box-sizing: border-box;
+    padding: 32px;
+    display: flex;
+  
+    
+} 
+.item-1{
+    background-color: lightcoral;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    padding: 32px;
+    font-size: 24px;
+    text-align: center;
+    flex-basis: 100px;   /*sets default of items to 120px*/
+}
+/* .item-1:nth-child(2){
+    background-color: blanchedalmond;
+    order: 1;
+} */
+.item-1:nth-child(even){
+    background-color: blanchedalmond;
+    align-self: center;
+}
+.item-1:nth-child(odd){
+    background-color: blanchedalmond;
+    align-self: flex-start;
+}

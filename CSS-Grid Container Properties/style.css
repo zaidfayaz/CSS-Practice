@@ -1,0 +1,44 @@
+body{
+
+    background-color: black;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 4px;
+    font-size: 48px;
+}
+#grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto; /*means 4 cols nd equal width to all*/
+    grid-gap: 16px;
+}
+.poster{
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@keyframes zoom{
+    0%{
+        transform:scale(1);
+        box-shadow: 0 2px 5px #ccc;
+    }
+    100%{
+        transform:scale(1,1);
+    }
+}
+@media (max-width:900px) {
+    #grid-container{
+        grid-template-columns: auto auto auto; /*means 4 cols nd equal width to all*/
+
+}
+}
+@media (max-width:400px) {
+    #grid-container{
+        grid-template-columns: auto auto ; /*means 4 cols nd equal width to all*/
+
+}
+}

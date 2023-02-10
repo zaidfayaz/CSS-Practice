@@ -1,0 +1,19 @@
+div{
+    background-color: lightblue;
+    width: 300px;
+    height: 300px;
+    margin: 14px 80px;
+    transition-property: background-color;
+    transition-duration: 3s;
+     transition-timing-function: ease-in,  ;  /*can make animation fast at end or start*/
+     transition: border-radius 3s ease-in; /*shorthand of above transition property*/
+
+}
+#d-2:hover{
+    background-color: lightcoral;
+    border-radius: 50%;
+}
+#d-2{
+    background-color:bisque;
+    transition: border-radius 3s ease-out, background-color 3s ease-out;
+}

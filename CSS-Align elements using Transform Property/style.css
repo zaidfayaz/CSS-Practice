@@ -1,0 +1,31 @@
+#d-1{
+    background-color: lightblue;
+    width: 300px;
+    height: 300px;
+    margin: 0px 80px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); /*horizontally center alligned*/
+}
+#d-2{
+    
+        background-color: rgb(112, 178, 200);
+        width: 300px;
+        height: 300px;
+        margin: 30px 80px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%); /*vertically center alligned*/
+    }
+
+    #d-3{
+    
+        background-color: rgb(112, 200, 137);
+        width: 300px;
+        height: 300px;
+        margin: 30px 80px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%); /*center alligned*/
+    }
